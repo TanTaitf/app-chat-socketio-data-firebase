@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">HoHo</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Xin chào bạn đến với HoHo</string>
+    <string name="slide_1_desc">Ứng dụng trò chuyện Mới</string>
+
+    <string name="slide_2_title">Tin tức online</string>
+    <string name="slide_2_desc">Truyền tải tin tức thời sự đến bạn</string>
+
+    <string name="slide_3_title">Phòng chat chung</string>
+    <string name="slide_3_desc">Chia sẻ thông tin ý kiến chung với mọi người</string>
+
+    <string name="slide_4_title">Liên kết chia sẻ mạng xã hội</string>
+    <string name="slide_4_desc">Bạn có thể đăng tin chia sẻ nội dung lên Facebook, Twiter, Google+</string>
+
+    <string name="play_again_desc">Xem lại hướng dẫn , Đi đến Settings -> Apps -> HoHo -> clear data</string>
+    <string name="play_again">Xem lại</string>
+</resources>

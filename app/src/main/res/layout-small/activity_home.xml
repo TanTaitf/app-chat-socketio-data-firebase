@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#14bf42"
+    tools:context="com.media.tf.chatsocketio.HomeApp.HomeActivity">
+
+
+    <com.media.tf.chatsocketio.FontCustom.MyTextView
+        android:id="@+id/textViewhometitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chat Private"
+        android:textSize="28sp"
+        app:fontName="myriadpro.ttf"
+        android:textStyle="bold|italic"
+        android:textColor="#ffffff"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="105dp" />
+
+    <ImageView
+        android:id="@+id/imageViewhome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/icon"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="32dp" />
+
+    <com.media.tf.chatsocketio.FontCustom.CustomFontButton
+        android:id="@+id/buttonchatnow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chat Ngay"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:background="@drawable/cumstom_sign_button"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="286dp" />
+
+
+    <com.media.tf.chatsocketio.FontCustom.MyTextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thanks used Us App"
+        android:textSize="25sp"
+        app:fontName="myriadpro.ttf"
+        android:textColor="#ffffff"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="81dp"
+        app:layout_constraintHorizontal_bias="0.587" />
+    <com.media.tf.chatsocketio.FontCustom.MyTextView
+        android:id="@+id/textView_mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(tf.media.com.vn)"
+        android:textSize="22sp"
+        app:fontName="myriadpro.ttf"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="55dp"
+        app:layout_constraintHorizontal_bias="0.572" />
+
+    <com.media.tf.chatsocketio.FontCustom.MyTextView
+        android:id="@+id/textViewversion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Version 1.2"
+        android:textSize="18sp"
+        app:fontName="myriadpro.ttf"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.971"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

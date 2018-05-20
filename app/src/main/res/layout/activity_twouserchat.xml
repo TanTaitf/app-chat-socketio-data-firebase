@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linear_twochat"
+    android:orientation="vertical"
+    android:background="@drawable/tile_bg"
+    tools:context="com.media.tf.chatsocketio.TwoUserChat.TwoUserChatActivity">
+
+    <android.support.v4.widget.DrawerLayout
+        android:layout_width="match_parent"
+        android:id="@+id/mydrawerLayout"
+        android:layout_height="match_parent">
+        <!--add thư viện design-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:weightSum="10"
+            android:id="@+id/layoutMainContent"
+            android:layout_height="match_parent">
+            <!--thuộc tính tự lấy kích thước cho toolbar ?attr/actionBarSize-->
+            <android.support.v7.widget.Toolbar
+                android:theme="@style/ThemToobar"
+                android:layout_width="match_parent"
+                android:background="#3cc41e"
+                android:layout_weight="1.5"
+                android:id="@+id/mytoolbar"
+                android:layout_height="80dp">
+            </android.support.v7.widget.Toolbar>
+
+
+            <ListView
+                android:id="@+id/listviewChatmessg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="7.5"
+                android:background="@android:color/transparent" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="2dp"
+                android:id="@+id/layooutReqairMessg"
+                android:layout_weight="1"
+                android:background="#d5dee6"
+                android:weightSum="1">
+
+                <com.media.tf.chatsocketio.FontCustom.CustomFontEditText
+                    android:id="@+id/edt_inputmessg"
+                    android:layout_width="0dp"
+                    android:paddingTop="3dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.85"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/custom_edtext"
+                    android:singleLine="false" />
+
+                <Button
+                    android:id="@+id/btn_sendmessg"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.15"
+                    android:background="@drawable/congxan"
+                    android:layout_gravity="center" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <android.support.design.widget.NavigationView
+            android:layout_width="match_parent"
+            android:id="@+id/myNavigationView"
+            app:menu="@menu/navigation"
+            android:layout_gravity="end"
+            android:background="@drawable/cumstom_nav_bg"
+            app:headerLayout="@layout/header_layout"
+            android:layout_height="match_parent">
+        </android.support.design.widget.NavigationView>
+    </android.support.v4.widget.DrawerLayout>
+
+</LinearLayout>

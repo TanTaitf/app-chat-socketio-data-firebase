@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/tabhost01"
+    android:weightSum="10"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+    <ListView
+        android:id="@+id/listviewDanhsachUser"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="5dp"
+        android:background="#ffffff"
+        android:layout_weight="9.95" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="0.05"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.SearchView
+            android:layout_width="wrap_content"
+            android:id="@+id/searchview"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="0.95"
+            android:queryHint="Search name"
+            android:layout_marginBottom="3dp"
+            android:textColorHint="#919191"
+            android:layout_height="match_parent" />
+
+        <com.media.tf.chatsocketio.FontCustom.CustomFontButton
+            android:id="@+id/btn_chatroom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Room"
+            android:drawableLeft="@drawable/icon_room_32"
+            android:padding="3dp"
+            android:layout_weight="0.05"
+            android:background="#90f73d"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="3dp" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

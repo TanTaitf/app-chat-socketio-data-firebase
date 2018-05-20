@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:background="#a1a1a1">
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:id="@+id/grd_backgr"
+        android:numColumns="3"
+        android:horizontalSpacing="10dp"
+        android:verticalSpacing="30dp"
+        android:layout_height="250dp"
+        android:background="@color/bg_btn_join"/>
+
+</LinearLayout>

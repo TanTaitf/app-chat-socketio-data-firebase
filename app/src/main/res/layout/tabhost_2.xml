@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/tabhost02"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:weightSum="2">
+
+            <ImageView
+                android:id="@+id/img_phongtrongchuyen"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_weight="0.5"
+                android:padding="5dp"
+                android:src="@drawable/img_room_01" />
+
+            <com.media.tf.chatsocketio.FontCustom.MyTextView
+                android:id="@+id/txt_phongtrochuyen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1.5"
+                android:text="Phòng Trò Chuyện"
+                app:fontName="myriadpro.ttf"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:weightSum="2">
+
+            <ImageView
+                android:id="@+id/img_QR"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_weight="0.5"
+                android:padding="5dp"
+                android:src="@drawable/img_qr" />
+
+            <com.media.tf.chatsocketio.FontCustom.MyTextView
+                android:id="@+id/txt_QR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.5"
+                android:layout_marginLeft="15dp"
+                android:text="Tiện ích QR"
+                android:textSize="18sp"
+                app:fontName="myriadpro.ttf"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:weightSum="2">
+
+            <ImageView
+                android:id="@+id/img_Readnews"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_weight="0.5"
+                android:padding="5dp"
+                android:src="@drawable/img_read_news" />
+
+            <com.media.tf.chatsocketio.FontCustom.MyTextView
+                android:id="@+id/txt_Readnews"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.5"
+                android:layout_marginLeft="15dp"
+                android:text="Tin Tức"
+                android:textSize="18sp"
+                app:fontName="myriadpro.ttf"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:weightSum="2">
+
+            <ImageView
+                android:id="@+id/img_font"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_weight="0.5"
+                android:padding="5dp"
+                android:src="@drawable/img_font" />
+
+            <com.media.tf.chatsocketio.FontCustom.MyTextView
+                android:id="@+id/txt_font"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.5"
+                android:layout_marginLeft="15dp"
+                android:text="Tin nhắn phông chữ"
+                android:textSize="18sp"
+                app:fontName="myriadpro.ttf"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:weightSum="2">
+
+            <ImageView
+                android:id="@+id/img_infohoho"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_weight="0.5"
+                android:padding="5dp"
+                android:src="@drawable/img_info_hoho" />
+
+            <com.media.tf.chatsocketio.FontCustom.MyTextView
+                android:id="@+id/txt_infohoho"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.5"
+                android:layout_marginLeft="15dp"
+                android:text="Thông tin về HoHo Chat"
+                android:textSize="18sp"
+                app:fontName="myriadpro.ttf"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:weightSum="2">
+
+            <ImageView
+                android:id="@+id/img_account"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:padding="5dp"
+                android:layout_weight="0.5"
+                android:src="@drawable/img_manager_account" />
+
+            <com.media.tf.chatsocketio.FontCustom.MyTextView
+                android:id="@+id/txt_account"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.5"
+                android:layout_marginLeft="15dp"
+                android:text="Quản lý tài khoản"
+                android:textSize="18sp"
+                app:fontName="myriadpro.ttf"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

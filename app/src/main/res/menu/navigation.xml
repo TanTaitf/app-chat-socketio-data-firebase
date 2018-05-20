@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+
+    <item android:title="Cài đặt hình nền"
+        android:id="@+id/cai_dat_hinh_nen"
+        android:icon="@drawable/icons_image_32"/>
+    <item android:title="Gửi Email"
+        android:id="@+id/gui_mail"
+        android:icon="@drawable/iconssendmail50"/>
+    <item android:title="Đánh dấu bạn chung"
+        android:id="@+id/danh_dau_ban_chung"
+        android:icon="@drawable/icons_user_group_32"
+        android:checkable="true"
+        android:checked="false"/>
+
+    <item
+        android:title="Tiện ích">
+        <menu>
+            <item android:title="Chụp màn hình"
+                android:id="@+id/chup_man_hinh"
+                android:icon="@drawable/icons_full_screen_filled_32"/>
+            <item android:title="Thông tin Facebook"
+                android:id="@+id/thong_tin_facebook"
+                android:icon="@drawable/icon_facebook_32"/>
+
+        </menu>
+    </item>
+</group>
+
+</menu>

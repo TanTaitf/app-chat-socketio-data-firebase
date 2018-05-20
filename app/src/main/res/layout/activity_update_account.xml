@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.media.tf.chatsocketio.UpdateAccount.UpdateAccountActivity">
+
+    <com.media.tf.chatsocketio.FontCustom.CustomFontEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:id="@+id/edt_lkface"
+        android:paddingLeft="15dp"
+        android:maxLines="2"
+        android:drawablePadding="5dp"
+        android:text="Liên kết Facebook"
+        android:drawableLeft="@drawable/icons_facebook_32"
+        android:textSize="16sp" />
+
+    <com.media.tf.chatsocketio.FontCustom.CustomFontEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:paddingLeft="15dp"
+        android:id="@+id/edt_lkgmail"
+        android:maxLines="2"
+        android:text="Liên kết Gmail"
+        android:drawableLeft="@drawable/icons_gmail_32"
+
+        android:textSize="16sp" />
+    <com.media.tf.chatsocketio.FontCustom.CustomFontEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp"
+        android:id="@+id/edt_lktwiter"
+        android:maxLines="2"
+        android:paddingLeft="15dp"
+        android:drawableLeft="@drawable/icons_twitter_32"
+        android:text="Liên kết Twiter"/>
+    <com.media.tf.chatsocketio.FontCustom.CustomFontEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:maxLines="2"
+        android:id="@+id/edt_lkphone"
+        android:drawablePadding="5dp"
+        android:paddingLeft="15dp"
+        android:drawableLeft="@drawable/icons_phone_32"
+        android:layout_marginTop="20dp"
+        android:text="Thông tin Phone"/>
+    <com.media.tf.chatsocketio.FontCustom.CustomFontEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:maxLines="2"
+        android:id="@+id/edt_lkadd"
+        android:drawableLeft="@drawable/icons_addfilled_32"
+        android:textSize="16sp"
+        android:paddingLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:text="Thông tin thêm"/>
+
+
+</LinearLayout>

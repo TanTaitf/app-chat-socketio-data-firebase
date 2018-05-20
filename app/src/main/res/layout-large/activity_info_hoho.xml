@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/ic_f2"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <com.media.tf.chatsocketio.FontCustom.MyTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="40sp"
+        app:fontName="myriadpro.ttf"
+        android:layout_marginTop="25dp"
+        android:text="Phiên bản v1.6"/>
+    <com.media.tf.chatsocketio.FontCustom.MyTextView
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="40sp"
+        app:fontName="myriadpro.ttf"
+        android:text="Tinh năng và Hướng dẫn"/>
+    <com.media.tf.chatsocketio.FontCustom.MyTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        app:fontName="myriadpro.ttf"
+        android:layout_marginTop="20dp"
+        android:textSize="40sp"
+        android:text="Kiểm tra cập nhật"/>
+    <com.media.tf.chatsocketio.FontCustom.MyTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="40sp"
+        app:fontName="myriadpro.ttf"
+        android:layout_marginTop="20dp"
+        android:text="Đánh giá HoHo"/>
+    <com.media.tf.chatsocketio.FontCustom.MyTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="40sp"
+        app:fontName="myriadpro.ttf"
+        android:layout_marginTop="20dp"
+        android:text="Email góp ý"/>
+
+    <com.media.tf.chatsocketio.FontCustom.MyTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="36sp"
+        app:fontName="myriadpro.ttf"
+        android:layout_marginTop="80dp"
+        android:text="Cảm ơn bạn đã sử dụng Ứng dụng\nHi vọng nhận được sự đánh giá từ bạn\nHãy đánh giá chúng tôi 5 sao"/>
+</LinearLayout>
