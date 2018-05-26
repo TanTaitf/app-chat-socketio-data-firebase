@@ -10,13 +10,12 @@
 [![Review](https://img.youtube.com/vi/om1McdCPX54/0.jpg)](http://youtu.be/om1McdCPX54)
 
 # Screen shot Layout
-<img src="https://github.com/TanTaitf/app-chat-socketio-data-firebase/blob/master/screenshoot/h1.png" alt="drawing" width="150"/>
-<img src="https://github.com/favicon.ico" width="480">
-![alt text](https://github.com/TanTaitf/app-chat-socketio-data-firebase/blob/master/screenshoot/h2.png =250x250)
-![alt text](https://github.com/TanTaitf/app-chat-socketio-data-firebase/blob/master/screenshoot/h3.png)
-![alt text](https://github.com/TanTaitf/app-chat-socketio-data-firebase/blob/master/screenshoot/h4.png)
-![alt text](https://github.com/TanTaitf/app-chat-socketio-data-firebase/blob/master/screenshoot/h8.png)
-![alt text](https://github.com/TanTaitf/app-chat-socketio-data-firebase/blob/master/screenshoot/h9.png)
+<img src="https://github.com/TanTaitf/app-chat-socketio-data-firebase/blob/master/screenshoot/h1.png" alt="drawing" width="200"/>
+<img src="https://github.com/TanTaitf/app-chat-socketio-data-firebase/blob/master/screenshoot/h2.png" alt="drawing" width="200"/>
+<img src="https://github.com/TanTaitf/app-chat-socketio-data-firebase/blob/master/screenshoot/h3.png" alt="drawing" width="200"/>
+<img src="https://github.com/TanTaitf/app-chat-socketio-data-firebase/blob/master/screenshoot/h4.png" alt="drawing" width="200"/>
+<img src="https://github.com/TanTaitf/app-chat-socketio-data-firebase/blob/master/screenshoot/h8.png" alt="drawing" width="200"/>
+<img src="https://github.com/TanTaitf/app-chat-socketio-data-firebase/blob/master/screenshoot/h9.png" alt="drawing" width="200"/>
 </br>
 
 ## Contact HoHo Chat:
