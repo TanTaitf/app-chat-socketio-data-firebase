@@ -1,15 +1,17 @@
 <img src="https://github.com/favicon.ico">
+
 # app-chat-socketio-data-firebase
 
 # Server chat Online Heroku
 [Server Online](https://dashboard.heroku.com/apps/chat-online-android/deploy/heroku-git)
-[Backend Sources](https://github.com/TanTaitf/server-chat-socketio)
+
+[Backend Sources Github](https://github.com/TanTaitf/server-chat-socketio)
 # HoHo Chat Review
 [![Review](https://img.youtube.com/vi/om1McdCPX54/0.jpg)](http://youtu.be/om1McdCPX54)
 
 # Screen shot Layout
-![alt text](https://github.com/TanTaitf/app-chat-socketio-data-firebase/blob/master/screenshoot/h1.png)
-![alt text](https://github.com/TanTaitf/app-chat-socketio-data-firebase/blob/master/screenshoot/h2.png)
+![alt text](https://github.com/TanTaitf/app-chat-socketio-data-firebase/blob/master/screenshoot/h1.png=250x250)
+![alt text](https://github.com/TanTaitf/app-chat-socketio-data-firebase/blob/master/screenshoot/h2.png=250x250)
 ![alt text](https://github.com/TanTaitf/app-chat-socketio-data-firebase/blob/master/screenshoot/h3.png)
 ![alt text](https://github.com/TanTaitf/app-chat-socketio-data-firebase/blob/master/screenshoot/h4.png)
 ![alt text](https://github.com/TanTaitf/app-chat-socketio-data-firebase/blob/master/screenshoot/h8.png)
@@ -24,6 +26,7 @@
 TanTaitf is also on [StackOverflow](https://stackexchange.com/users/13328579/t%C3%A0i-hu%E1%BB%B3nh)
 
 <br/>
+
 # License:
 
 Copyright 2017 TanTaitf
