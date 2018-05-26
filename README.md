@@ -10,7 +10,7 @@
 [![Review](https://img.youtube.com/vi/om1McdCPX54/0.jpg)](http://youtu.be/om1McdCPX54)
 
 # Screen shot Layout
-![alt text](https://github.com/TanTaitf/app-chat-socketio-data-firebase/blob/master/screenshoot/h1.png =250x250)
+![alt text](<img src="https://github.com/TanTaitf/app-chat-socketio-data-firebase/blob/master/screenshoot/h1.png" alt="drawing" style="width: 200px; height: 200px;"/>)
 ![alt text](https://github.com/TanTaitf/app-chat-socketio-data-firebase/blob/master/screenshoot/h2.png =250x250)
 ![alt text](https://github.com/TanTaitf/app-chat-socketio-data-firebase/blob/master/screenshoot/h3.png)
 ![alt text](https://github.com/TanTaitf/app-chat-socketio-data-firebase/blob/master/screenshoot/h4.png)
